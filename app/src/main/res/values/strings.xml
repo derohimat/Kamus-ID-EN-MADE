@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kamus ID EN</string>
+    <string name="app_first_run">first_run</string>
+    <string name="loading">Loading…</string>
+</resources>

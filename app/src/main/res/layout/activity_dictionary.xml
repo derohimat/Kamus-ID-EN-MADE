@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.derohimat.kamusiden.DictionaryActivity">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_double"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbEnId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="EN-ID"/>
+
+        <RadioButton
+            android:id="@+id/rbIdEn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ID-EN"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/inpSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_double"
+        android:layout_marginRight="@dimen/dimen_double"
+        android:ems="10"
+        android:hint="Search"
+        android:imeOptions="actionDone"
+        android:inputType="text"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/dimen_double"
+        android:layout_weight="1"/>
+</LinearLayout>

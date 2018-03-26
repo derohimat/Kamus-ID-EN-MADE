@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_normal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+        tools:text="Word"/>
+
+    <TextView
+        android:id="@+id/txt_meaning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_half"
+        android:maxLines="3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        tools:text="Ubi est fortis abnoba?Hercle, amor mirabilis!, gratis genetrix!Pol, a bene gabalium.Amicitias ortum in ostravia!Hercle, cotta primus!.Cum calceus persuadere, omnes habitioes consumere albus, noster verpaes.Abactor clemens guttus est."/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/dimen_normal"
+        android:background="#CECECE"/>
+</LinearLayout>
